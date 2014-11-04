@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8" />
+			<link rel="stylesheet" href="css recherche.css" />
+			<title> Formulaire de recherche</title>
+		</head>
+		
+		<body>
+			<article class="FormEntier">
+				<p>
+					<form class="where"> <!--Formulaire de choix de la destination-->
+						<p> <label class="LabWhere"> Quelle destination ? </label> </p>
+						<p> <input type="text" name="where" id="where" maxlength="30" size="17px" placeholder="Votre destination" /> </p>
+					</form>
+					<form class="Date"> <!--Formuaire de choix de la date-->
+						<p> <label class="LabDate"> Quelles dates ? </label> </p>
+						<p> date début :
+							<select name="jour" size="1"> <!--Menu déroulant jour début-->
+								<option selected> jour
+								<option> 1
+								<option> 2
+								<option> 3
+								<option> 4
+								<option> 5
+								<option> 6
+								<option> 7
+								<option> 8
+								<option> 9
+								<option> 10
+								<option> 11
+								<option> 12
+								<option> 13
+								<option> 14
+								<option> 15
+								<option> 16
+								<option> 17
+								<option> 18
+								<option> 19
+								<option> 20
+								<option> 21
+								<option> 22
+								<option> 23
+								<option> 24
+								<option> 25
+								<option> 26
+								<option> 27
+								<option> 28
+								<option> 29
+								<option> 30
+								<option> 31
+							</select>
+							<select name="mois" size="1">  <!--Menu déroulant mois début-->
+								<option selected> mois
+								<option> janvier
+								<option> février
+								<option> mars
+								<option> avril
+								<option> mai
+								<option> juin
+								<option> juillet
+								<option> août
+								<option> septembre
+								<option> octobre
+								<option> novembre
+								<option> decembre
+							</select>
+							date fin :
+							<select name="jour" size="1">  <!--Menu déroulant jour fin-->
+								<option selected> jour
+								<option> 1
+								<option> 2
+								<option> 3
+								<option> 4
+								<option> 5
+								<option> 6
+								<option> 7
+								<option> 8
+								<option> 9
+								<option> 10
+								<option> 11
+								<option> 12
+								<option> 13
+								<option> 14
+								<option> 15
+								<option> 16
+								<option> 17
+								<option> 18
+								<option> 19
+								<option> 20
+								<option> 21
+								<option> 22
+								<option> 23
+								<option> 24
+								<option> 25
+								<option> 26
+								<option> 27
+								<option> 28
+								<option> 29
+								<option> 30
+								<option> 31
+							</select>
+							<select name="mois" size="1">  <!--Menu déroulant mois fin-->   
+								<option selected> mois
+								<option> janvier
+								<option> février
+								<option> mars
+								<option> avril
+								<option> mai
+								<option> juin
+								<option> juillet
+								<option> août
+								<option> septembre
+								<option> octobre
+								<option> novembre
+								<option> decembre
+							</select>
+						</p>
+					</form>
+					<form class="NbPerson">  <!--Formulaire de choix du nombre de personnes-->
+						<p> <label class="LabNB"> Combien de personnes ? </label></p>
+						<p><input type="number" min="0" max="10" step="1" /></p>
+					</form>
+					<form class="criteria">  <!--Formulaire de choix des critères-->
+						<p><label> Critères interdits </label>
+						<select name="criterion1" size="1">
+							<option> 1
+							<option> 2
+							<option> 3
+						</select>
+						<select name="criteiron2" size="1">
+							<option> 1
+							<option> 2
+							<option> 3
+						</select>	
+						<select name="criteiron3" size="1">
+							<option> 1
+							<option> 2
+							<option> 3
+						</select>
+					</form>
+					<form class="StartSearch"> <!--Bouton envoi formulaire recherche-->
+						<input type="button" name="StartSearch" value="Rechercher" onclick="self.location.href='page2.html'" style="width:130px" />
+					</form>	
+				</p>	
+			</article>
+		<body>
+	</html>
