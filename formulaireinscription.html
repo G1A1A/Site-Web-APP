@@ -1,0 +1,90 @@
+<html>
+	<header>
+		<title>Formulaire d'inscription</title>
+	</header>
+	
+	<body>
+		<h1>Formulaire d'inscription</h1>
+
+		<fieldset>
+		<legend>Vos coordonnees</legend>
+
+		<form method="post" action="">
+			<p>
+				<label>Nom</label> : <input type="text" name="nom" id="Nom" placeholder="Ex:Hasselhof" />
+			</p>
+
+		<form method="post" action="">
+			<p>
+				<label>Prenom</label> : <input type="text" name="prenom" id="Prenom" placeholder="Ex:David" />
+			</p>
+		</form>
+		
+		<form method="post" action="">
+			<p>
+				<label>Date de naissance</label> : <input type="date" name="date" id="Date de Naissance" placeholder="JJ/MM/AAAA" />
+			</p>
+		</form>
+
+		<form method="post" action="">
+			<p>
+				<label>Adresse e-mail</label> : <input type="email" name="mail" id="Adresse e-mail" placeholder="Ex:dhasselhof@malibu.com" />
+			</p>
+		</form>
+
+		<form method="post" action="">
+			<p>
+				<label for="telephone">Telephone</label>
+				<input type="tel" name="tel" id="tel" placeholder="Ex:0000000000" maxlength="10" />
+			</p>
+		</form>
+		</fieldset>
+
+		<form method="post" action="">
+			<p>
+				<label for="pseudo">Pseudo</label>
+				<input type="text" name="pseudo" id="pseudo" placeholder="Ex:Chabadou" maxlenght="12" />
+			</p>
+		</form>
+
+	<script src="formulaireinscription.js"></script>
+
+		<form method="post" action="">
+			<p>
+				<label for="pass">Mot de passe</label>
+				<input type="password" name="pass" id="pass" />
+			</p>
+		</form>
+		
+		<form method="post" action="">
+			<p>
+				<label for="repass">Repeter mot de passe</label>
+				<input type="password" name="repass" id="repass" />
+			</p>
+		</form>
+		
+		<form method="post" action="">
+			<p>
+				<label for="res">Nombre de residences</label>
+				<input type="number" name="res" id="res" />
+			</p>
+		</form>
+
+		<form method="post" action="">
+			<p>
+				<label for="infos">Informations additionelles</label>
+				<textarea name="infos" id="info" /></textarea>
+			</p>
+		</form>
+
+		<form method="post" action="">
+			<p>
+				Sexe:<br />
+				<input type="radio" name="homme" id="homme" /> <label for="homme">Homme</label><br />
+				<input type="radio" name="femme" id="femme" /> <label for="femme">Femme</label><br />
+				<input type="radio" name="autre" id="autre" /> <label for="autre">Autre</label><br />
+			</p>
+		</form>
+
+
+</html>
