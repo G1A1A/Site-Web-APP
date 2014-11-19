@@ -1,0 +1,21 @@
+.FormEntier
+{
+border: solid 2px;
+width: 475px;
+height: 400px;
+margin-left: 60%;
+margin-top: 25%;
+padding-left: 30px;
+}
+
+label
+{
+text-decoration: underline;
+font-family: "Times New Roman", Serif;
+font-size: 15px;
+}
+
+.StartSearch
+{
+padding-left: 70%;
+}
